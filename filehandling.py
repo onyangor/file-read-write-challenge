@@ -1,4 +1,6 @@
 def modify_content(content):
+    print(" Original content from the file:")
+    print(content)
     return content.upper()
 
 def read_and_write_file():
